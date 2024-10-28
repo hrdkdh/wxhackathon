@@ -108,3 +108,26 @@ body {
     padding: 3px 2px;
     text-align: center;
 }
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 4px 0px;
+}
+.faq-question {
+    margin:0px 0px 10px 0px;
+    font-size:14pt;
+    text-align: left;
+    font-weight: 700;
+    cursor: pointer;
+}
+.faq-answer {
+    display:none;
+    margin:0px 0px 10px 10px;
+    font-size:12pt;
+    text-align: left;
+    color:rgb(80, 80, 80);
+}
+.slide-open {
+    display: block !important;
+}
