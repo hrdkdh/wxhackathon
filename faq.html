@@ -60,7 +60,7 @@ $(document).ready(function() {
             <div class="faq-answer">${faq.answer}</div>
         </div>`;
     });
-    $('#container').append(faq_html);
+    $('#main-title').after(faq_html);
     $(document).on('click', '.faq-question', function() {
         if ($(this).next().hasClass('slide-open')) {
             $(this).next().removeClass('slide-open');
@@ -76,6 +76,11 @@ $(document).ready(function() {
             <img src="signature.svg" style="max-width:300px;">
         </div>
         <div id="main-title" style="margin-bottom:20px;">WX 해커톤 2024 FAQ</div>
+        <div class="line"></div>
+        <div class="content" style="margin-bottom:40px;">
+            <p style="color:rgb(155, 154, 151);">문의처 : 포스코인재창조원 이찬미 대리(chanmi.lee_hrd@poscohrd.com), 안서희 사원(seoha@poscohrd.com)</p>
+            <p style="color:rgb(155, 154, 151);">Copyright 2024 포스코인재창조원 All rights reserved.</p>
+        </div>
     </div>
 </body>
 </html>
